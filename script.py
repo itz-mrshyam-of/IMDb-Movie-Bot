@@ -27,7 +27,7 @@ Source: <a href='https://t.me/itz_mrshyam'>GitHub - Click here 👈</a>
 - <a href='https://t.me/itz_mrshyam'>Mr Shyam Edits</a>
 
 <b>SUPPORT GROUP</b>
-- <a href='https://t.me/m_s_p_o_123'>Jos Movie Club</a>"""
+- <a href='https://t.me/m_s_p_o_123'>Movie Club</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
