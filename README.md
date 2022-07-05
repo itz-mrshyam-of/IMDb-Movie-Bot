@@ -140,7 +140,7 @@ python3 bot.py
 [![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/JosProjects)
 
 ## Credits 
-* [![Shadow King](https://img.shields.io/static/v1?label=Shadow_King&message=devs&color=critical)](https://telegram.dog/ShadowKing9o)
+* [![Shadow King](https://img.shields.io/static/v1?label=Shadow-King&message=devs&color=critical)](https://telegram.dog/ShadowKing9o)
 
 ## Disclaimer
 [![GNU Affero General Public License 3.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
