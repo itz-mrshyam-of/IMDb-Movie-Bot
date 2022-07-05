@@ -46,16 +46,16 @@
 
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
-* `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
-* `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
+* `API_ID`: Get this value from [Shadow Scrapper](https://t.me/ShadowScrapperBot)
+* `API_HASH`: Get this value from [Shadow Scrapper](https://t.me/ShadowScrapperBot)
 * `CHANNELS`: Username or ID of channel or group. Separate multiple IDs by space
 * `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
-* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/nj-lJfkgb6w)
-* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/nj-lJfkgb6w)
+* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/ttX4OEYwpCQ)
+* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/ttX4OEYwpCQ)
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
 ### Optional Variables
 * `IMDB`: Imdb, the view of information when making True/False.
-* `SINGLE_BUTTON`: choose b/w [single or double buttons](https://github.com/josprojects/tgmoviebot/issues/1) True/False.
+* `SINGLE_BUTTON`: choose b/w single or double buttons True/False.
 
 ## larger result buttons
 larger results will be better for reading.
@@ -76,12 +76,8 @@ You can deploy this bot anywhere.
 <details><summary>Deploy to Heroku</summary>
 <p>
 <br>
-<a href="https://telegram.dog/XTZ_HerokuBot?start=am9zcHJvamVjdHMvdGdtb3ZpZWJvdCBtYXN0ZXI">
+<a href="https://heroku.com/deploy?template=https://github.com/MasterShad0w/IMDb-Movie-Bot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-
-<a href="https://youtu.be/DFJxT7nUh10"><img src="https://img.shields.io/badge/How%20to%20Deploy%20on%20Heroku-blue.svg?logo=Youtube"></a>
-<a href="https://youtu.be/DFJxT7nUh10"><img src="https://img.shields.io/youtube/views/DFJxT7nUh10?style=social">
-</a>
 </p>
 </details>
 
@@ -90,14 +86,10 @@ You can deploy this bot anywhere.
 <br/>
 
 <p align="left">
-<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fjosprojects%2Ftgmoviebot"
+<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FMasterShad0w%2FIMDb-Movie-Bot"
 ">
      <img height="30px" src="https://railway.app/button.svg">
   </a>
-</p>
-<a href="https://youtu.be/h6PtzFYaMxQ"><img src="https://img.shields.io/badge/How%20to%20Deploy%20on%20Railway-blue.svg?logo=Youtube"></a>
-<a href="https://youtu.be/h6PtzFYaMxQ"><img src="https://img.shields.io/youtube/views/h6PtzFYaMxQ?style=social">
-</a>
 </p>
 
 </details>
@@ -105,7 +97,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy to VPS</summary>
 <p>
 <pre>
-git clone https://github.com/josprojects/tgmoviebot
+git clone https://github.com/MasterShad0w/IMDb-Movie-Bot
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
