@@ -128,7 +128,7 @@ Do as you wish with telegra.ph module!
 • IMDb should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member.
-• Separate bot is also available :- <a href='https://t.me/ShadowTelegraphBot>Telegraph Downloader</a>'."""
+• Separate bot is also available :- <a href='https://t.me/ShadowTelegraphBot'>Telegraph Downloader</a>."""
 
     INFO_TXT = """Help: <b>Information</b>
 
@@ -315,7 +315,7 @@ Music download modules, for those who love music.
 • IMDb should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member.
-• Separate bot is also available :- <a href='https://t.me/ShadowYtDownloaderBot>Yt Downloader</a>'."""
+• Separate bot is also available :- <a href='https://t.me/ShadowYtDownloaderBot'>YouTube Downloader</a>."""
 
     PASSWORD_GEN_TXT = """Help: <b>Password Generator</b>
 
