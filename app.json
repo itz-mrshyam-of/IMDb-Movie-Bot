@@ -1,6 +1,7 @@
 {
     "name": "IMDb-Movie-Bot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
+    "logo": "https://telegra.ph/file/8f6b24120aab8490dca45.jpg",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -66,7 +67,40 @@
             "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
             "value": "Telegram_files",
             "required": false
-        }
+        },
+        "USE_CAPTION_FILTER": {
+            "description": "This will add a custom caption for each file, edit it in HTML formate. ",
+            "value": "<b><i>{file_name}>>{file_size)> [⪼Cʜᴀɴɴᴇʟ](@ShadowsArena)</i></b>",
+            "required": false
+        }, 
+        "USE_CAPTION_FILTER": {
+            "description": "This will add a custom caption for each file, edit it in HTML formate. ",
+            "value": "True",
+            "required": false
+        }, 
+        "CUSTOM_FILE_CAPTION": {
+            "description": "This will add a custom caption for each file, edit it in HTML formate. ",
+            "value": "<b><i>{file_name}>>{file_size)> [⪼Cʜᴀɴɴᴇʟ](@ShadowsArena)</i></b>",
+            "required": false
+        }, 
+        "IMDB": {
+            "description": "Set this on True to enable IMDb formate. ",
+            "value": "True",
+            "required": false
+        }, 
+        "IMDB_TEMPLATE": {
+            "description": "Paste your desired IMDb formate which bot can use for filter.",
+            "value": "<i><b>📟Movie Name</ b></i> : <i><b><a href={url}>{title}</a></ b></i> <i><b>🗓Release Date</b></i> : <i><b>{release_date}</b></i>
+<i><b> =📊Votes</b></i> : <i><b>{votes)</ b></i> <i><b>⏱Run Time</b></i> : <i><b>{runtime) Minutes</b></i> <i><b>🎖IMDB Rating</b></i> : <i><b><a href={url}/ratings>{rating}/10</a></b></i> <i><b>🎬Genres</b></i> : <i><b>{genres} </b></i> <i><b>🔉Languages</b></i> <i><b>#{languages}</b></i>
+<i><b>🧑‍💻Requested By</b></i> <i><b>{message.from_user.mention}</ b></i> <i><b>🚀Group</b></i> : <i><b>{message.chat.title}</b></i>
+Made By 👮‍♂ @itz_mrshyam",
+            "required": false
+        }, 
+        "SINGLE_BUTTON": {
+            "description": "This will enable single button for filters. ", 
+            "value": "True",
+            "required": false
+        }, 
     },
     "addons": [],
     "buildpacks": [{
