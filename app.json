@@ -1,7 +1,7 @@
 {
     "name": "IMDb-Movie-Bot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
-    "logo": "https://telegra.ph/file/8f6b24120aab8490dca45.jpg",
+    "logo": "https://telegra.ph/file/1b71ca9ebb039a8bf98fb.jpg",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -24,11 +24,11 @@
             "required": true
         },
         "API_ID": {
-            "description": "Get this value from https://my.telegram.org",
+            "description": "Get this value from https://t.me/ShadowScrapperBot",
             "required": true
         },
         "API_HASH": {
-            "description": "Get this value from https://my.telegram.org",
+            "description": "Get this value from https://t.me/ShadowScrapperBot",
             "required": true
         },
         "CHANNELS": {
@@ -56,11 +56,11 @@
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/nj-lJfkgb6w",
+            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/ttX4OEYwpCQ",
             "required": true
         },
         "DATABASE_NAME": {
-            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/nj-lJfkgb6w",
+            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/ttX4OEYwpCQ",
             "required": false
         },
         "COLLECTION_NAME": {
